@@ -1,6 +1,8 @@
 
 package com.example.cse438movieappfall;
 
+import androidx.collection.CircularArray;
+
 import java.io.Serializable;
 import java.util.List;
 import com.google.gson.annotations.Expose;
@@ -165,4 +167,7 @@ public class Result implements Serializable
         this.voteCount = voteCount;
     }
 
+    public CircularArray<Object> getResults() {
+        return null;
+    }
 }
